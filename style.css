@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(66, 66, 66);
+}
+/* Nav Start */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(105, 105, 105);
+    padding-top: 5px;
+    top: 0;
+    z-index: 10000;
+    column-gap: 280px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.search-container{
+    border: 2px solid rgb(49, 48, 48);
+    height: 30px;
+    
+    display: flex;
+    align-items: center;
+    background-color: rgb(83, 82, 82);
+    
+}
+#search-input{
+    border: none;
+    outline: none;
+    background-color: rgb(83, 82, 82);
+    width: 370px;
+    height: 28px;
+   
+    font-size: 20px;
+    text-align:start;
+    padding-left: 4px;
+    color: beige    ;
+}
+#search{
+    border: none;
+    outline: none;
+    height: 31px;
+}
+#search img{
+    height: 31px;
+    width: 40px; 
+}
+.nav-middle{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.nav-middle img {
+    height: 35px;
+    width: 37px;
+}
+
+/* Nav End */
+
+/* menu-part start */
+.both , .part{
+display: flex;
+align-items: center;
+gap: 18px;
+padding-bottom: 20px;
+color: beige;
+font-size: 20px;
+padding-left: 30px;
+cursor: pointer;
+}
+.home {
+    padding-top: 20px;
+}
+
+.SUBSCRIPTION > h4, .MORE_FROM > h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: beige;
+}
+
+.one{
+    border: 2px solid white;
+    padding-right: 5px;
+}
+
+/* menu-part end */
+
+/* Class = two (start) */
+.main{
+    display: flex;
+}
+.two-point-one >p{
+    width: 50px;
+    margin-left: 18px;
+    font-size: 15px;
+    border: 1px solid white;
+    padding-top: 6px;
+    padding-left: 9px;
+    border-radius: 20px;
+    background-color:rgb(70, 65, 65);
+    color:white;
+    
+}
+.two-point-one{
+    display: flex;
+    background-color: rgb(51, 49, 49);
+    margin-top: 10px;
+}
+/* Class = two (end) */
+
+/* class = two-point-two (start) */
+.two-point-two > .vedio > img{
+    display: flex;
+    
+
+}
+
+
+
+
+
+
+
+
+
